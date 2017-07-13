@@ -6,3 +6,4 @@ feature-1 2017-07-13T20:00:09Z EmilGerth <emil.gerth@shiftwise.com> # This is a 
 feature-2 2017-07-13T19:58:15Z EmilGerth <emil.gerth@shiftwise.com> # This is a note about feature 2.
 @merging-feature-2 2017-07-13T20:21:45Z EmilGerth <emil.gerth@shiftwise.com> # adding feature-1 as dependency for feature-2
 feature-2 [feature-2@merging-feature-2 feature-1] 2017-07-13T20:23:11Z EmilGerth <emil.gerth@shiftwise.com> # adding feature-1 as requirement for feature-2
+feature-4 [feature-2] 2017-07-13T21:56:33Z EmilGerth <emil.gerth@shiftwise.com> # adding feature 4 
