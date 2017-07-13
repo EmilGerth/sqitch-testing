@@ -2,3 +2,4 @@
 %project=sandbox
 %uri=https://github.com/EmilGerth/sqitch-testing
 
+feature-1 2017-07-13T20:00:09Z EmilGerth <emil.gerth@shiftwise.com> # This is a note about feature 1.
