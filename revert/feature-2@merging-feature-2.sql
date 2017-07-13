@@ -1,4 +1,4 @@
--- Deploy sandbox:feature-2 to pg
+-- Revert sandbox:feature-2 from pg
 
 BEGIN;
 
