@@ -2,3 +2,4 @@
 %project=sandbox
 %uri=https://github.com/EmilGerth/sqitch-testing
 
+simple-variable-test 2017-08-24T21:46:37Z emil.gerth <emil.gerth@shiftwise.com> # Just a way to test variable substitution.
