@@ -2,6 +2,8 @@
 
 BEGIN;
 
+  DROP SCHEMA IF EXISTS vartest CASCADE;
+  
   CREATE SCHEMA vartest AUTHORIZATION emil;
 
   CREATE TABLE IF NOT EXISTS vartest.test_table (

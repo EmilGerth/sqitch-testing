@@ -1,4 +1,4 @@
--- Verify sandbox:simple-variable-test on pg
+git-- Verify sandbox:simple-variable-test on pg
 
 BEGIN;
 
@@ -12,7 +12,7 @@ VALUES ( 'test_variable', :'test_variable' );
 
 DO LANGUAGE plpgsql $$
     DECLARE error_message VARCHAR := '';
-    DECLARE test_variable VARCHAR(50);
+            test_variable VARCHAR(50);
 BEGIN
     test_variable := (SELECT value FROM expected_values WHERE valueLabel = 'test_variable');
 
